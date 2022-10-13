@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
+import { toast, ToastContainer } from "react-toastify";
 
 const Quiz = ({ quiz }) => {
   const { options, question, id, correctAnswer } = quiz;
@@ -13,7 +14,9 @@ const Quiz = ({ quiz }) => {
             className="mt-2 right-0 top-0 cursor-pointer"
             icon={faEye}
             onClick={() => {
-              alert(correctAnswer);
+              toast.success(correctAnswer, {
+                theme: "colored",
+              });
             }}
           ></FontAwesomeIcon>
         </div>
@@ -112,6 +115,7 @@ const Quiz = ({ quiz }) => {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };

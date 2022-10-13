@@ -1,12 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import img2 from "../Images/logo.png"
 
 const Header = () => {
   return (
     <div>
       <div className="p-5 bg-slate-200">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
-          <Link to="#" className="flex items-center">
+          <Link to="#" className="flex items-center justify-center">
+            <img className="w-8 h-8 mr-4" src={img2} alt="" />
             <span className="self-center text-xl font-bold whitespace-nowrap dark:text-white">
               QuizBuzz
             </span>

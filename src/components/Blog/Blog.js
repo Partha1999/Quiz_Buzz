@@ -2,9 +2,9 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="text-center mt-20">
-      <div className="border-2 p-5 shadow-lg mb-5 ">
-        <h1 className="mb-5">what is the purpose of react router?</h1>
+    <div className="text-center mt-20 mx-20 ">
+      <div className="border-2 p-5 shadow-lg mb-5 bg-slate-200">
+        <h1 className="mb-5 text-2xl font-bold">What is the purpose of react router?</h1>
         <p>
           Ans:React Router is a standard library for routing in React. It
           enables the navigation among views of various components in a React
@@ -13,8 +13,8 @@ const Blog = () => {
           understand how the React Router works
         </p>
       </div>
-      <div className="border-2 p-5 shadow-lg mb-5">
-        <h1 className="mb-5">How does contest API work?</h1>
+      <div className="border-2 p-5 shadow-lg mb-5 bg-slate-200">
+        <h1 className=" text-2xl font-bold mb-5">How does contest API work?</h1>
         <p>
           Ans:The React Context API is a way for a React app to effectively
           produce global variables that can be passed around. This is the
@@ -23,8 +23,8 @@ const Blog = () => {
           lighter approach to state management using Redux.
         </p>
       </div>
-      <div className="border-2 p-5 shadow-lg mb-5">
-        <h1 className="mb-5">what is useref hook and how does it works?</h1>
+      <div className="border-2 p-5 shadow-lg mb-5 bg-slate-200">
+        <h1 className="mb-5 text-2xl font-bold">What is useref hook and how does it works?</h1>
         <p>
           Ans:The useRef is a hook that allows to directly create a reference to
           the DOM element in the functional component.How does useRef hook work?
