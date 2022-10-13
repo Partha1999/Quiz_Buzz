@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <div className="p-">
+      <div className="p-5 bg-slate-200">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link to="#" className="flex items-center">
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">

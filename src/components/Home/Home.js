@@ -1,14 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Topics from "../Topics/Topics";
+import img1 from "../Images/img.gif"
 const Home = () => {
   return (
     <nav>
-      <div>
-      <div>
+      <div className="pt-14">
+      <div  className="flex justify-center items-center flex-col ">
         <h1 className="font-extrabold text-4xl text-center mt-10">A Quize Site Platform for The Digital World!</h1>
-        <p className="text-center mt-10 mx-40">Advanced quiz builder that includes SETTINGS and QUESTIONS sections. Settings control WHAT, WHEN, FOR WHOM, and HOW the quiz will function. The questions section allows the creation ofÂ various question types with images, GIFs, and videos</p>
-        <img src="" alt="" />
+        <p className="text-center mt-10 mx-40 w-[60%]   font-bold">Advanced quiz builder that includes SETTINGS and QUESTIONS sections. Settings control WHAT, WHEN, FOR WHOM, and HOW the quiz will function. The questions section allows the creation ofÂ various question types with images, GIFs, and videos</p>
+        <img src={img1} alt="" />
       </div>
         <Topics></Topics>
       </div>
@@ -16,7 +17,7 @@ const Home = () => {
       {/* Footer Start */}
       <div>
         
-<footer class="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
+<footer class="p-4 mt-20 bg-slate-200 rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
     <div class="sm:flex sm:items-center sm:justify-center">
         <ul class="flex flex-wrap items-center text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
