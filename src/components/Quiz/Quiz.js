@@ -29,6 +29,9 @@ const Quiz = ({ quiz }) => {
                 if (e.target.value === correctAnswer) {
                   alert("Correct Answer");
                 }
+                else{
+                  alert("Wrong Answer");
+                }
               }}
             />
             <label
@@ -48,6 +51,9 @@ const Quiz = ({ quiz }) => {
               onChange={(e) => {
                 if (e.target.value === correctAnswer) {
                   alert("Correct Answer");
+                }
+                else{
+                  alert("Wrong Answer");
                 }
               }}
             />
@@ -69,6 +75,9 @@ const Quiz = ({ quiz }) => {
                 if (e.target.value === correctAnswer) {
                   alert("Correct Answer");
                 }
+                else{
+                  alert("Wrong Answer");
+                }
               }}
             />
             <label
@@ -88,6 +97,9 @@ const Quiz = ({ quiz }) => {
               onChange={(e) => {
                 if (e.target.value === correctAnswer) {
                   alert("Correct Answer");
+                }
+                else{
+                  alert("Wrong Answer");
                 }
               }}
             />
