@@ -21,16 +21,16 @@ const Home = () => {
     <div class="sm:flex sm:items-center sm:justify-center">
         <ul class="flex flex-wrap items-center text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-                <Link href="#" class="mr-4 hover:underline md:mr-6 text-xl ">About</Link>
+                <Link href="#" class="mr-4 hover:underline md:mr-6 text-xl text-orange-400 ">About</Link>
             </li>
             <li>
-                <Link href="#" class="mr-4 hover:underline md:mr-6 text-xl">Privacy Policy</Link>
+                <Link href="#" class="mr-4 hover:underline md:mr-6 text-xl  text-orange-400">Privacy Policy</Link>
             </li>
             <li>
-                <Link href="#" class="mr-4 hover:underline md:mr-6 text-xl ">Licensing</Link>
+                <Link href="#" class="mr-4 hover:underline md:mr-6 text-xl  text-orange-400">Licensing</Link>
             </li>
             <li>
-                <Link href="#" class="hover:underline">Contact</Link>
+                <Link href="#" class="hover:underline text-xl  text-orange-400">Contact</Link>
             </li>
         </ul>
     </div>
