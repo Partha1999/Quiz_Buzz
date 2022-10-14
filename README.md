@@ -1,4 +1,4 @@
-NETLIFY LINK:
+NETLIFY LINK: https://scintillating-druid-c909ee.netlify.app/
 
 Feature :
 - HOME for homePage.
