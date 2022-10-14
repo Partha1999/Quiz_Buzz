@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="text-center mt-20 mx-20 ">
+    <div className="text-center mt-20 lg:mx-20 mx-3 ">
       <div className="border-2 p-5 shadow-lg mb-5 bg-slate-200">
         <h1 className="mb-5 text-2xl font-bold text-slate-700">What is the purpose of React router?</h1>
         <p>
