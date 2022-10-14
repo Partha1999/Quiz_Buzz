@@ -7,7 +7,7 @@ const Home = () => {
     <nav>
       <div className="pt-14">
       <div  className="flex justify-center items-center flex-col ">
-        <h1 className="font-extrabold text-4xl text-center mt-10">A Quize Site Platform for The Digital World!</h1>
+        <h1 className="font-extrabold text-4xl text-center mt-10 text-cyan-500">A Quize Site Platform for The Digital World!</h1>
         <p className="text-center mt-10 mx-40 w-[60%]   font-bold">Advanced quiz builder that includes SETTINGS and QUESTIONS sections. Settings control WHAT, WHEN, FOR WHOM, and HOW the quiz will function. The questions section allows the creation ofÂ various question types with images, GIFs, and videos</p>
         <img src={img1} alt="" />
       </div>
