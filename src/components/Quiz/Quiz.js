@@ -35,7 +35,7 @@ const Quiz = ({ quiz }) => {
                   });
                 } 
                 else{
-                  toast.success('Wrong Answer', {
+                  toast.warning('Wrong Answer', {
                     theme: "colored",
                   });
                 }
@@ -62,7 +62,7 @@ const Quiz = ({ quiz }) => {
               });
                 }
                 else{
-                  toast.success('Wrong Answer', {
+                  toast.warning('Wrong Answer', {
                     theme: "colored",
                   });
                 }
@@ -89,7 +89,7 @@ const Quiz = ({ quiz }) => {
                   });
                 }
                 else{
-                  toast.success('Wrong Answer', {
+                  toast.warning('Wrong Answer', {
                     theme: "colored",
                   });
                 }
@@ -116,7 +116,7 @@ const Quiz = ({ quiz }) => {
                   }); 
                 }
                 else{
-                  toast.success('Wrong Answer', {
+                  toast.warning('Wrong Answer', {
                     theme: "colored",
                   });
                 }
