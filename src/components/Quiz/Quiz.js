@@ -30,10 +30,14 @@ const Quiz = ({ quiz }) => {
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
               onChange={(e) => {
                 if (e.target.value === correctAnswer) {
-                  alert("Correct Answer");
-                }
+                  toast.success('Right Answer', {
+                    theme: "colored",
+                  });
+                } 
                 else{
-                  alert("Wrong Answer");
+                  toast.success('Wrong Answer', {
+                    theme: "colored",
+                  });
                 }
               }}
             />
@@ -53,10 +57,14 @@ const Quiz = ({ quiz }) => {
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
               onChange={(e) => {
                 if (e.target.value === correctAnswer) {
-                  alert("Correct Answer");
+               toast.success('Right Answer', {
+                theme: "colored",
+              });
                 }
                 else{
-                  alert("Wrong Answer");
+                  toast.success('Wrong Answer', {
+                    theme: "colored",
+                  });
                 }
               }}
             />
@@ -76,10 +84,14 @@ const Quiz = ({ quiz }) => {
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
               onChange={(e) => {
                 if (e.target.value === correctAnswer) {
-                  alert("Correct Answer");
+                  toast.success('Right Answer', {
+                    theme: "colored",
+                  });
                 }
                 else{
-                  alert("Wrong Answer");
+                  toast.success('Wrong Answer', {
+                    theme: "colored",
+                  });
                 }
               }}
             />
@@ -99,10 +111,14 @@ const Quiz = ({ quiz }) => {
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
               onChange={(e) => {
                 if (e.target.value === correctAnswer) {
-                  alert("Correct Answer");
+                  toast.success('Right Answer', {
+                    theme: "colored",
+                  }); 
                 }
                 else{
-                  alert("Wrong Answer");
+                  toast.success('Wrong Answer', {
+                    theme: "colored",
+                  });
                 }
               }}
             />
